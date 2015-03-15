@@ -1,0 +1,108 @@
+body {
+/*	background-color:#eef0f2;*/
+	}
+
+.etat-civil {
+	margin-left: 25px;
+	margin-top: 25px;
+	}
+.intern-ec {
+	margin-left: 50px;
+	margin-top: 25px;
+	}
+
+.adresse-domiciliation {
+	margin-left: 50px;
+	margin-top: 25px;
+	}
+
+.domiciliation-ec2 {
+	margin-left: -25px;
+	margin-top: 25px;
+	}
+
+.objectifs-ec3 {
+	margin-left: 50px;
+	margin-top: 25px;
+	}
+
+.objectifs {
+	margin-left: 25px;
+	margin-top: 25px;
+	}
+
+.experience-ec4 {
+	margin-left: 50px;
+	margin-top: 25px;
+	}
+
+.experience {
+	margin-left: 25px;
+	margin-top: 25px;
+	}
+
+.formation-ec5 {
+	margin-left: 50px;
+	margin-top: 25px;
+	}
+
+.formation {
+	margin-left: 25px;
+	margin-top: 25px;
+	}
+
+.competence-ec6 {
+	margin-left: 50px;
+	margin-top: 25px;
+	}
+
+.competence {
+	margin-left: 25px;
+	margin-top: 25px;
+	}
+
+.interets-ec7 {
+	margin-left: 50px;
+	margin-top: 25px;
+	}
+
+.interets {
+	margin-left: 25px;
+	margin-top: 25px;
+	}
+
+.atouts-ec8 {
+	margin-left: 50px;
+	margin-top: 25px;
+	}
+
+.atouts {
+	margin-left: 25px;
+	margin-top: 25px;
+	}
+
+#homme a{
+	color:#000;
+	text-decoration: none;
+	font-size: 12px;
+}
+#femme a{
+	color:#000;
+	text-decoration: none;
+	font-size: 12px;
+}
+
+#homme a:hover{
+	text-decoration: underline;
+}
+#femme a:hover{
+	text-decoration: underline;
+	font-size: 12px;
+}
+
+#homme a:active{
+	text-decoration: underline;
+}
+#femme a:active{
+	text-decoration: underline;
+}

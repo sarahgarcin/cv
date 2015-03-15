@@ -1,0 +1,196 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link type="text/css" rel="stylesheet" href="style.css"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>CV</title>
+    <script src="js/jquery-2.1.3.min.js" type="text/javascript"></script>
+    <script src="js/script.js" type="text/javascript"></script>
+</head>
+
+<body>
+    
+    <form id="form" action="to_pdf.php" method="POST">
+
+<div id="homme">
+   <a href="cv_homme.html">HOMME</a>
+</div>
+<div id="femme">
+    <a href="cv_femme.html">FEMME</a>
+</div>
+
+<div class="infos">
+        <p><strong> Informations</strong></p>
+    <div class="intern-ec">        
+        Nom<input type="text" name="name">
+        Prénom<input type="text" name="prenom">
+
+        <p>Né le:</p>
+        Jour 
+            <select name="jour" size="1">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+            <option>10</option>
+            <option>11</option>
+            <option>12</option>
+            <option>13</option>
+            <option>14</option>
+            <option>15</option>
+            <option>16</option>
+            <option>17</option>
+            <option>18</option>
+            <option>19</option>
+            <option>20</option>
+            <option>21</option>
+            <option>22</option>
+            <option>23</option> 
+            <option>24</option>
+            <option>25</option>
+            <option>26</option>
+            <option>27</option>
+            <option>28</option>
+            <option>29</option>
+            <option>30</option>
+            <option>31</option> 
+        </select> 
+
+
+        Mois
+        <select name="mois" size="1">
+            <option value="Janvier">Janvier</option>
+            <option value="Février">Février</option>
+            <option value="Mars">Mars</option>
+            <option value="Avril">Avril</option>
+            <option value="Mai">Mai</option>
+            <option value="Juin">Juin</option>
+            <option value="Juillet">Juillet</option>
+            <option value="Août">Août</option>
+            <option value="Septembre">Septembre</option>
+            <option value="Octobre">Octobre</option>
+            <option value="Novembre">Novembre</option>
+            <option value="Décembre">Décembre</option>
+        </select> 
+
+
+        Année 
+        <select name="annee" size="1">
+            <option>1996</option>
+            <option>1995</option>
+            <option>1994</option>
+            <option>1993</option>
+            <option>1992</option>
+            <option>1991</option>
+            <option>1990</option>
+            <option>1989</option>
+            <option>1988</option>
+            <option>1987</option>
+            <option>1986</option>
+            <option>1985</option>
+            <option>1984</option>
+            <option>1983</option>
+            <option>1982</option>
+            <option>1981</option>
+            <option>1980</option>
+            <option>1979</option>
+            <option>1978</option>
+            <option>1977</option>
+            <option>1976</option>
+            <option>1975</option>
+            <option>1974</option> 
+            <option>1973</option>
+            <option>1972</option>
+            <option>1971</option>
+            <option>1970</option>
+            <option>1969</option>
+            <option>1968</option>
+            <option>1967</option>
+            <option>1966</option>
+            <option>1965</option>
+            <option>1964</option>
+            <option>1963</option>
+            <option>1962</option>
+            <option>1961</option>
+            <option>1960</option>
+            <option>1959</option>
+            <option>1958</option>
+            <option>1957</option>
+            <option>1956</option>
+            <option>1955</option>
+            <option>1954</option> 
+            <option>1953</option>
+            <option>1952</option>
+            <option>1951</option>
+            <option>1950</option>  
+        </select> 
+
+   </div>
+
+
+        <p>Téléphone
+        <input type="text" name="telephone"></p>
+
+        <p>Adresse email
+        <input type="text" name="email"></p>
+
+        <div class="sites-web">
+            <ul></ul>
+            <p class="add-site">+ Ajouter un site web</p>        
+        </div>
+
+</div>
+
+    <div class="formations">
+        <p><strong>FORMATIONS</strong></p>
+    </div>
+    <div class="formations-ec3">
+        <ul>
+            <li>
+                <label>Année
+                    <input type="text" name="annee-formation[]">
+                    Formation <textarea name="formation[]"></textarea>
+                </label>
+            </li>
+            <p class="add-formation">+ Ajouter une formation</p>  
+        </ul>
+
+    </div>
+
+    <div class="experience">
+        <p><strong>EXPERIENCE PROFESSIONNELLES</strong></p>
+    </div>
+    <div class="experience-ec4">
+        <ul>
+            <li>
+                <label>Année
+                    <input type='text' name='annee-experience'>
+                    Expérience<textarea name='experience'></textarea>
+                </label>
+            </li>
+            <p class='add-experience'>+ Ajouter une expérience</p>  
+        </ul>
+    </div>
+
+    
+    <div class="divers">
+         <strong><p> DIVERS </p></strong>
+    </div>
+    <div class="divers-ec5">
+        <p><input type="checkbox" name="permis" value="Permis B">Permis B</p>
+        <p><input type="checkbox" name="permisc" value="Permis C">Permis C</p>
+
+    </div>
+
+
+
+        <p>
+        <input type="submit" value="Soumettre">
+        <input type="reset" value="Remettre à zéro"></p>
+    </form>
+</body>
